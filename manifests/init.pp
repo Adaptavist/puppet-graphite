@@ -595,6 +595,8 @@ class graphite (
   $wsgi_processes                        =  5,
   $wsgi_threads                          =  5,
   $wsgi_inactivity_timeout               =  120,
+  $django_version                        = '1.5',
+  $django_provider                       = 'pip',
   $gr_django_tagging_pkg                 = $::graphite::params::django_tagging_pkg,
   $gr_django_tagging_ver                 = $::graphite::params::django_tagging_ver,
   $gr_twisted_pkg                        = $::graphite::params::twisted_pkg,

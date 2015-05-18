@@ -45,7 +45,6 @@ class graphite::params {
       $graphitepkgs = [
         'python-tz',
         'python-cairo',
-        'python-django',
         'python-ldap',
         'python-memcache',
         'python-mysqldb',
